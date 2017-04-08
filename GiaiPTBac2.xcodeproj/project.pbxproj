@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2286F61E987F8300BFE82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2286F51E987F8300BFE82C /* AppDelegate.swift */; };
+		EF2286F81E987F8300BFE82C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2286F71E987F8300BFE82C /* ViewController.swift */; };
+		EF2286FB1E987F8300BFE82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2286F91E987F8300BFE82C /* Main.storyboard */; };
+		EF2286FD1E987F8300BFE82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2286FC1E987F8300BFE82C /* Assets.xcassets */; };
+		EF2287001E987F8300BFE82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2286FE1E987F8300BFE82C /* LaunchScreen.storyboard */; };
+		EF22870B1E987F8300BFE82C /* GiaiPTBac2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22870A1E987F8300BFE82C /* GiaiPTBac2Tests.swift */; };
+		EF2287161E987F8300BFE82C /* GiaiPTBac2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2287151E987F8300BFE82C /* GiaiPTBac2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2287071E987F8300BFE82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2286EA1E987F8300BFE82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2286F11E987F8300BFE82C;
+			remoteInfo = GiaiPTBac2;
+		};
+		EF2287121E987F8300BFE82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2286EA1E987F8300BFE82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2286F11E987F8300BFE82C;
+			remoteInfo = GiaiPTBac2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2286F21E987F8300BFE82C /* GiaiPTBac2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiaiPTBac2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2286F51E987F8300BFE82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF2286F71E987F8300BFE82C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF2286FA1E987F8300BFE82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2286FC1E987F8300BFE82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2286FF1E987F8300BFE82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2287011E987F8300BFE82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2287061E987F8300BFE82C /* GiaiPTBac2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiaiPTBac2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF22870A1E987F8300BFE82C /* GiaiPTBac2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiaiPTBac2Tests.swift; sourceTree = "<group>"; };
+		EF22870C1E987F8300BFE82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2287111E987F8300BFE82C /* GiaiPTBac2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiaiPTBac2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2287151E987F8300BFE82C /* GiaiPTBac2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiaiPTBac2UITests.swift; sourceTree = "<group>"; };
+		EF2287171E987F8300BFE82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2286EF1E987F8300BFE82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2287031E987F8300BFE82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22870E1E987F8300BFE82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2286E91E987F8300BFE82C = {
+			isa = PBXGroup;
+			children = (
+				EF2286F41E987F8300BFE82C /* GiaiPTBac2 */,
+				EF2287091E987F8300BFE82C /* GiaiPTBac2Tests */,
+				EF2287141E987F8300BFE82C /* GiaiPTBac2UITests */,
+				EF2286F31E987F8300BFE82C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2286F31E987F8300BFE82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2286F21E987F8300BFE82C /* GiaiPTBac2.app */,
+				EF2287061E987F8300BFE82C /* GiaiPTBac2Tests.xctest */,
+				EF2287111E987F8300BFE82C /* GiaiPTBac2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2286F41E987F8300BFE82C /* GiaiPTBac2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF2286F51E987F8300BFE82C /* AppDelegate.swift */,
+				EF2286F71E987F8300BFE82C /* ViewController.swift */,
+				EF2286F91E987F8300BFE82C /* Main.storyboard */,
+				EF2286FC1E987F8300BFE82C /* Assets.xcassets */,
+				EF2286FE1E987F8300BFE82C /* LaunchScreen.storyboard */,
+				EF2287011E987F8300BFE82C /* Info.plist */,
+			);
+			path = GiaiPTBac2;
+			sourceTree = "<group>";
+		};
+		EF2287091E987F8300BFE82C /* GiaiPTBac2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF22870A1E987F8300BFE82C /* GiaiPTBac2Tests.swift */,
+				EF22870C1E987F8300BFE82C /* Info.plist */,
+			);
+			path = GiaiPTBac2Tests;
+			sourceTree = "<group>";
+		};
+		EF2287141E987F8300BFE82C /* GiaiPTBac2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2287151E987F8300BFE82C /* GiaiPTBac2UITests.swift */,
+				EF2287171E987F8300BFE82C /* Info.plist */,
+			);
+			path = GiaiPTBac2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2286F11E987F8300BFE82C /* GiaiPTBac2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF22871A1E987F8300BFE82C /* Build configuration list for PBXNativeTarget "GiaiPTBac2" */;
+			buildPhases = (
+				EF2286EE1E987F8300BFE82C /* Sources */,
+				EF2286EF1E987F8300BFE82C /* Frameworks */,
+				EF2286F01E987F8300BFE82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiaiPTBac2;
+			productName = GiaiPTBac2;
+			productReference = EF2286F21E987F8300BFE82C /* GiaiPTBac2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF2287051E987F8300BFE82C /* GiaiPTBac2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF22871D1E987F8300BFE82C /* Build configuration list for PBXNativeTarget "GiaiPTBac2Tests" */;
+			buildPhases = (
+				EF2287021E987F8300BFE82C /* Sources */,
+				EF2287031E987F8300BFE82C /* Frameworks */,
+				EF2287041E987F8300BFE82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2287081E987F8300BFE82C /* PBXTargetDependency */,
+			);
+			name = GiaiPTBac2Tests;
+			productName = GiaiPTBac2Tests;
+			productReference = EF2287061E987F8300BFE82C /* GiaiPTBac2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2287101E987F8300BFE82C /* GiaiPTBac2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2287201E987F8300BFE82C /* Build configuration list for PBXNativeTarget "GiaiPTBac2UITests" */;
+			buildPhases = (
+				EF22870D1E987F8300BFE82C /* Sources */,
+				EF22870E1E987F8300BFE82C /* Frameworks */,
+				EF22870F1E987F8300BFE82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2287131E987F8300BFE82C /* PBXTargetDependency */,
+			);
+			name = GiaiPTBac2UITests;
+			productName = GiaiPTBac2UITests;
+			productReference = EF2287111E987F8300BFE82C /* GiaiPTBac2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2286EA1E987F8300BFE82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cntt17;
+				TargetAttributes = {
+					EF2286F11E987F8300BFE82C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					EF2287051E987F8300BFE82C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF2286F11E987F8300BFE82C;
+					};
+					EF2287101E987F8300BFE82C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF2286F11E987F8300BFE82C;
+					};
+				};
+			};
+			buildConfigurationList = EF2286ED1E987F8300BFE82C /* Build configuration list for PBXProject "GiaiPTBac2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2286E91E987F8300BFE82C;
+			productRefGroup = EF2286F31E987F8300BFE82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2286F11E987F8300BFE82C /* GiaiPTBac2 */,
+				EF2287051E987F8300BFE82C /* GiaiPTBac2Tests */,
+				EF2287101E987F8300BFE82C /* GiaiPTBac2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2286F01E987F8300BFE82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2287001E987F8300BFE82C /* LaunchScreen.storyboard in Resources */,
+				EF2286FD1E987F8300BFE82C /* Assets.xcassets in Resources */,
+				EF2286FB1E987F8300BFE82C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2287041E987F8300BFE82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22870F1E987F8300BFE82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2286EE1E987F8300BFE82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2286F81E987F8300BFE82C /* ViewController.swift in Sources */,
+				EF2286F61E987F8300BFE82C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2287021E987F8300BFE82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF22870B1E987F8300BFE82C /* GiaiPTBac2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22870D1E987F8300BFE82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2287161E987F8300BFE82C /* GiaiPTBac2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2287081E987F8300BFE82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2286F11E987F8300BFE82C /* GiaiPTBac2 */;
+			targetProxy = EF2287071E987F8300BFE82C /* PBXContainerItemProxy */;
+		};
+		EF2287131E987F8300BFE82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2286F11E987F8300BFE82C /* GiaiPTBac2 */;
+			targetProxy = EF2287121E987F8300BFE82C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF2286F91E987F8300BFE82C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2286FA1E987F8300BFE82C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF2286FE1E987F8300BFE82C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2286FF1E987F8300BFE82C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2287181E987F8300BFE82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2287191E987F8300BFE82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF22871B1E987F8300BFE82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GiaiPTBac2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hcmute.GiaiPTBac2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF22871C1E987F8300BFE82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GiaiPTBac2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hcmute.GiaiPTBac2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF22871E1E987F8300BFE82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GiaiPTBac2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hcmute.GiaiPTBac2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiaiPTBac2.app/GiaiPTBac2";
+			};
+			name = Debug;
+		};
+		EF22871F1E987F8300BFE82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GiaiPTBac2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hcmute.GiaiPTBac2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiaiPTBac2.app/GiaiPTBac2";
+			};
+			name = Release;
+		};
+		EF2287211E987F8300BFE82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GiaiPTBac2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hcmute.GiaiPTBac2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GiaiPTBac2;
+			};
+			name = Debug;
+		};
+		EF2287221E987F8300BFE82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GiaiPTBac2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hcmute.GiaiPTBac2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GiaiPTBac2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2286ED1E987F8300BFE82C /* Build configuration list for PBXProject "GiaiPTBac2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2287181E987F8300BFE82C /* Debug */,
+				EF2287191E987F8300BFE82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF22871A1E987F8300BFE82C /* Build configuration list for PBXNativeTarget "GiaiPTBac2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22871B1E987F8300BFE82C /* Debug */,
+				EF22871C1E987F8300BFE82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF22871D1E987F8300BFE82C /* Build configuration list for PBXNativeTarget "GiaiPTBac2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22871E1E987F8300BFE82C /* Debug */,
+				EF22871F1E987F8300BFE82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF2287201E987F8300BFE82C /* Build configuration list for PBXNativeTarget "GiaiPTBac2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2287211E987F8300BFE82C /* Debug */,
+				EF2287221E987F8300BFE82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2286EA1E987F8300BFE82C /* Project object */;
+}
