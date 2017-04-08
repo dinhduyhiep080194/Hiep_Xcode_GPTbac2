@@ -45,9 +45,12 @@ class ViewController: UIViewController {
                     lblResult.text = "PT vo nghiem"
                 }
             }
-            else{
-                lblResult.text = "PT co nghiem x = \(-c/b)"
+            else if(c==0){
+                lblResult.text = "PT co nghiem x = 0"
             }
+                else{
+                lblResult.text = "PT co nghiem x = \(-c/b)"
+                }
         }
         else{
             let delta = ((b*b)-(4*a*c))
