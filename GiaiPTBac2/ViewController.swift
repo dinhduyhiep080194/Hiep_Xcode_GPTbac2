@@ -34,11 +34,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let inverseSet = NSCharacterSet(charactersIn:"0123456789").inverted
         
-        let aSet = NSCharacterSet(charactersIn:"0123456789-").inverted
-        let compSepByCharInSet = string.components(separatedBy: aSet)
-        let numberFiltered = compSepByCharInSet.joined(separator: "")
-        if numberFiltered == string {
+        let components = string.components(separatedBy: inverseSet)
+        
+        let filtered = components.joined(separator: "")
+        
+        if filtered == string {
             return true
         } else {
             if string == "." {
@@ -53,12 +55,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     }
                 }
             }else{
-                return false
+                if string == "-" {
+                    if (textField.text!.isEmpty == true){
+                        return true
+                    } else {
+                        return false
+                    }
+                } else {
+                    return false
+                }
             }
         }
-        //return string == numberFiltered
     }
-    
     @IBAction func btnGiai(_ sender: Any) {
         lblResult2.text = ""
         lblResult.isHidden = false
