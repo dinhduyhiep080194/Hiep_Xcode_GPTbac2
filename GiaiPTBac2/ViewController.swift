@@ -23,6 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         lblResult.isHidden = true
         lblResult2.isHidden = true
+        //delegate
         self.txta.delegate = self
         self.txtb.delegate = self
         self.txtc.delegate = self
